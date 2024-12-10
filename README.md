@@ -42,7 +42,8 @@ Este repositorio contiene ejemplos de scripts en Bash diseñados para principian
 2. Explore the scripts in the repository.
 3. Run the scripts to understand their functionality:
    ```bash
-   bash <script_name>.sh
+   chmod 755 <nombre_del_script>.sh
+   bash <script_name>.sh or o ./<nombre_del_script>.sh
    ```
 4. Use these examples as templates for your own scripts.
 
