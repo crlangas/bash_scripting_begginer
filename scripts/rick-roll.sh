@@ -1,6 +1,6 @@
 #!/bin/bash
 read -p "pon tu nombre"
-chmod 700 hola.sh
+chmod 700 $0
 while true
 do
 sleep 3
