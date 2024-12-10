@@ -6,18 +6,21 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 
 sudo apt update
 sudo apt upgrade
-sudo apt install brave-browse
+sudo apt install brave-browser
 sudo apt install nefetch
 sudo apt install htop
 sudo apt install net-tools
 sudo apt install nmap
-sudo apt install aircrack-ng 
+sudo apt install sl
+sudo apt install cowsay
+sudo apt install aircrack-ng
+
 if [ $? -ne 0 ]
 then
 	sudo apt-get install aircrack-ng 
 fi
 sudo apt install tasksel
-read -p "quieres descargar ya los escritorios? (s/n)" var
+read -p "quieres elegir ya los escritorios? (s/n)" var
 if [ "$var" == "s" ]
 then
 	tasksel
