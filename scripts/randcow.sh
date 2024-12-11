@@ -1,5 +1,12 @@
 #!/bin/bash
 #Este script saludara con un cowsay aleatorio
+if command -v cowsay >/dev/null 2>&1; 
+	#simplemente continua
+else
+	echo "cowsay es un programa imprescindible para este script"
+	read -p "si deseas isntalarlo presiona enter: "
+	sudo apt install cowsay
+fi
 # Lista de animales disponibles en cowsay
 animales=(
     "apt"
